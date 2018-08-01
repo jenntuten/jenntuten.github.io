@@ -10,8 +10,13 @@ background
 main {background: white;
     width: 960px;
     height: 600px;
-color: gray;}
+    margin: 20px;
+color: gray;
+font-family: georgia;}
 
+div  {margin: 50px;
+padding: 20px;}
+/*
 section 
 {position: relative;
     background: gray;
@@ -20,3 +25,5 @@ margin: 20px;
 height: 100px;
 top: -200px;
 color: white;}
+*/
+li {margin: 15px;}
