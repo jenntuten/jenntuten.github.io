@@ -1,0 +1,22 @@
+body { background: gray;}
+
+background 
+{
+    background: white;
+    width: 960px;
+    height: 1800px;
+
+}
+main {background: white;
+    width: 960px;
+    height: 600px;
+color: gray;}
+
+section 
+{position: relative;
+    background: gray;
+width: 200px;
+margin: 20px;
+height: 100px;
+top: -200px;
+color: white;}
