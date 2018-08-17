@@ -21,22 +21,22 @@
             </div>
             <div class="col-md-6">
                     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon"></span>
                             </button>
                           
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                               <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item active">
-                                            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                                          </li>
+                                
+                                <li class="nav-item">
+                                  <a class="nav-link" href="index.html">About</a>
+                                </li>
                                 <li class="nav-item">
                                   <a class="nav-link" href="portfolio.html">Portfolio</a>
                                 </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                                
+                                <li class="nav-item active">
+                                        <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                                      </li>
                               </ul>
                             </div>
                           </nav>
@@ -47,23 +47,24 @@
     <div class="container">
         <section class="row">
             <div class="col-md-12">
-                <div class="sectionName">About Me</div>
+                <div class="sectionName">Contact</div>
                 <div class="bar"></div>
                 <div class="col-md-12">
-                    <div class="pic"><img src="images/Photo.png" height="143" width="142" alt="Jennifer Tuten"></div>
-                    <p>I live in the Austin area with my husband, two daughters, and our cat and dog. We've been in the area
-                        on and off for about 10 years; we lived in Colorado for some time and moved back to Texas in 2017.</p>
-                    
-                    <p>I'm originally from Del Rio, Texas, about 150 miles west of San Antonio. My husband and I met in high
-                        school, and we married after I graduated from UTSA. Our twin girls were born in 2008, and I had the
-                        fortune of staying at home with them for the first two years of their lives.</p>
-                    
-                    <p>I've utilized my English degree in a few roles throughout the past 12 years. For several years I worked
-                        on freelance writing projects, and I also turned my jewelry-making hobby into a business. </p>
-                    
-                    <p>Currently I'm attending a 24-week web development bootcamp, and I look forward to broadening my horizons
-                        with the skills I learn throughout the course. I have a couple of ideas in mind for websites and
-                        apps, and I'm excited to acquire the knowledge needed to bring those ideas to life.</p>
+                        <div class="formGroup">
+                                <form action="contactPage" method="post">
+                                    <div>
+                                        <p class="yourName">Name:</p>
+                                        <input type="text" class="yourName" name="user_name" value="John Smith">
+                                    </div>
+                                    <div><br>
+                                        <p class="mail">E-mail:</p>
+                                        <input type="text" class="mail" name="user_mail" value="example@gmail.com">
+                                    </div>
+                                    <div><br>
+                                        <p class="message">Message:</p>
+                                        <textarea class="msg" name="user_message"></textarea>
+                                    </div></br>
+                                </form>
                 </div>
             </div>
         </section>
@@ -74,7 +75,7 @@
                 <div class="topBar"></div>
             </div>
             <div class="col-md-12">
-                <div class="bottomBar">Copyright &copy; 2018</div>
+                <div class="bottomBar"> Copyright &copy; 2018</div>
         </footer>
         </div>
         <!-- Optional JavaScript -->
